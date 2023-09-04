@@ -3,7 +3,7 @@
 STAGE=1
 
 lezip="https://github.com/acmesh-official/acme.sh/archive"
-legit="https://github.com/acmesh-official/acme.sh.git"
+legit="https://github.com/KincaidYang/acme.sh.git"
 
 PROJECT="https://github.com/acmesh-official/acmetest"
 
@@ -762,12 +762,7 @@ _setup() {
     BRANCH="master"
   fi
   _info "Testing branch: $BRANCH"
-  if command -v tar > /dev/null ; then
-    link="$lezip/$BRANCH.tar.gz"
-    curl -OL "$link" >/dev/null 2>&1
-    tar xzf "$BRANCH.tar.gz"  >/dev/null 2>&1
-    mv "acme.sh-$BRANCH" acme.sh
-  elif command -v git > /dev/null ; then
+  if command -v git > /dev/null ; then
     rm -rf acme.sh
     git clone $legit -b $BRANCH
   else
