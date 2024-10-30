@@ -2,6 +2,7 @@ name: MacOS
 on:
   schedule:
     - cron: '10 9 * * *'
+  workflow_dispatch:
   push:
     branches:
       - '*'
@@ -26,7 +27,7 @@ jobs:
       TEST_PREFERRED_CHAIN: (STAGING) Pretend Pear X1
       TEST_ACME_Server: "LetsEncrypt.org_test"
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Install tools
       run:  brew update && brew install socat;
     - name: Run acmetest

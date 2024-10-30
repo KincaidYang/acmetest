@@ -1,4 +1,4 @@
-# acmetest
+# acmetest [![ZeroSSL](https://github.com/acmesh-official/acmetest/actions/workflows/ZeroSSL.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/ZeroSSL.yml)
 Unit test project for **acme.sh** project https://github.com/acmesh-official/acme.sh
 
 
@@ -12,6 +12,7 @@ Unit test project for **acme.sh** project https://github.com/acmesh-official/acm
 |NetBSD| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/NetBSD.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/NetBSD.yml) |
 |DragonFlyBSD| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/DragonFlyBSD.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/DragonFlyBSD.yml) |
 |pfsense| NA |
+|Omnios| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Omnios.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Omnios.yml)|
 |solaris| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Solaris.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Solaris.yml)|
 |windows-cygwin| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Windows.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Windows.yml)|
 |ubuntu:latest| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml)|
@@ -27,6 +28,7 @@ Unit test project for **acme.sh** project https://github.com/acmesh-official/acm
 |gentoo/stage3-amd64| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml)|
 |clearlinux:latest| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml)|
 |almalinux:latest| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml)|
+|tatsushid/tinycore:latest| [![LetsEncrypt](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml/badge.svg)](https://github.com/acmesh-official/acmetest/actions/workflows/Linux.yml)|
 
 
 # How to run tests

@@ -2,6 +2,7 @@ name: Windows
 on:
   schedule:
     - cron: '10 9 * * *'
+  workflow_dispatch:
   push:
     branches:
       - '*'
@@ -32,7 +33,7 @@ jobs:
     - name: Set git to use LF
       run: |
           git config --global core.autocrlf false
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Install cygwin base packages with chocolatey
       run: |
           choco config get cacheLocation
